@@ -5,7 +5,7 @@ Python - Variable Annotations
 from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     '''
     function which takes a float n as argument
     and returns the floor of the float
