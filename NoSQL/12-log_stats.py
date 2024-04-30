@@ -13,7 +13,7 @@ collection = db['nginx']
 total_logs = collection.count_documents({})
 print(f"{total_logs} logs")
 
-# Get count of each method
+# Get count each method
 methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
 print("Methods:")
 for method in methods:
