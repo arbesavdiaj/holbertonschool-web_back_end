@@ -10,7 +10,7 @@ method = ["GET", "POST", "PUT", "PATCH", "DELETE"]
 
 def nginx_logs_stats(mongo_collection):
     """
-    script that provides some stats about Nginx logs stored in MongoDB
+    script that provides stats about Nginx logs stored in MongoDB
     """
     total_logs = mongo_collection.count_documents({})
     print(f"{total_logs} logs")
