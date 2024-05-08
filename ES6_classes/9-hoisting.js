@@ -28,7 +28,7 @@ export class StudentHolberton {
   }
 
   get holbertonClass() {
-    return this.holbertonClass;
+    return this._holbertonClass;
   }
 }
 const student1 = new StudentHolberton("Guillaume", "Salva", class2020);
