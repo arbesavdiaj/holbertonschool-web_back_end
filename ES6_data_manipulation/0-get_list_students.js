@@ -2,7 +2,7 @@
 const getListStudents = () => [
     {
       id: 1,
-      firstName: 'Guillame',
+      firstName: 'Guillaume',
       location: 'San Francisco',
     },
     {
@@ -15,5 +15,5 @@ const getListStudents = () => [
       firstName: 'Serena',
       location: 'San Francisco',
     },
-];
-export default getListStudents;
+  ];
+  export default getListStudents;
